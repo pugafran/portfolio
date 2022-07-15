@@ -26,6 +26,7 @@ else{
 toggleColors.addEventListener('click', (e)=>{
 rootStyles.setProperty('--primary-color', e.target.dataset.color);
 
+//Esto es una prueba
 
 
 }
