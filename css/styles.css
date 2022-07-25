@@ -8,6 +8,8 @@
     --skill-bar-length: 0%;
 }
 
+
+
 *{
     box-sizing: border-box;
 }
@@ -15,6 +17,7 @@
 body{
     margin: 0;
     background-color: var(--bg-color);
+    
     color: var(--text-color);
     transition: var(--transition);
     font-family: sans-serif;
@@ -405,3 +408,5 @@ img{
         transform: translateX(var(--skill-bar-length));
     }
 }
+
+
